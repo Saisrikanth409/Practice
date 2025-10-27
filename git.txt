@@ -1,7 +1,10 @@
 git init
+git status
 git add .
+git status
 git remote add origin (link)
 git branch -m master main
+git commit -m "msg"
 git push -u origin main
 if error:
 git push -f origin main
